@@ -1,0 +1,31 @@
+body {
+    background: #aaa;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-picker {
+    position: relative;
+}
+
+.color-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+    color: #333;  /* Dunkelgrau */
+    font-family: 'Roboto', sans-serif;  /* Verwendung der Schriftart Roboto */
+    font-size: 24px;  /* Erhöhung der Schriftgröße */
+}
+
+#color-picker {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
